@@ -1,0 +1,32 @@
+<div style="padding-left: 100px;">
+    <h1>Add Student</h1>
+
+    <form [formGroup]="studentForms" (ngSubmit)="saveStudent()">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" formControlName="name">
+        </div>
+        <div>
+            <label for="department">Department:</label>
+            <input type="text" id="department" formControlName="department">
+        </div>
+        <div>
+            <label for="rollNumber">Roll Number:</label>
+            <input type="text" id="rollNumber" formControlName="rollNumber">
+        </div>
+        <div>
+            <label for="birthDate">Birth Date:</label>
+            <input type="date" id="birthDate" formControlName="birthDate">
+        </div>
+        <div>
+            <label for="mobileNumber">Mobile Number:</label>
+         <input type="text" id="mobileNumber" formControlName="mobileNumber">
+        </div>
+        <div *ngIf="studentForms.valid">
+            <input type="submit" value="Save Student">
+        </div>
+    </form>
+</div>
+
+<h3>Form Status: {{studentForms.valid}}</h3>
+<h3>Form json: {{studentForms.value |   json}}</h3>

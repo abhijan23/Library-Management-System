@@ -1,0 +1,28 @@
+<div style="padding-left: 100px;">
+    <h1>Add Publisher</h1>
+
+    <form [formGroup]="publisherForms" (ngSubmit)="savePublisher()">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" formControlName="name">
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <input type="text" id="address" formControlName="address">
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" formControlName="phone">
+        </div>
+        <div>
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" formControlName="email">
+        </div>
+        <div *ngIf="publisherForms.valid">
+            <input type="submit" value="Save Publisher">
+        </div>
+    </form>
+</div>
+
+<h3>Form Status: {{publisherForms.valid}}</h3>
+<h3>Form json: {{publisherForms.value   |   json}}</h3>

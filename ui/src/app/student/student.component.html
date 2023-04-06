@@ -1,0 +1,31 @@
+<h1 [ngClass]="isGreen? 'title-green':'title-red'">{{title}}</h1>
+
+
+<h2 *ngIf="students.length<1">No Data</h2>
+<div style="margin: 20px; float: right">
+    <button class="button" (click)="addStudent()"> Add Student</button>
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Roll Number</th>
+            <th>Birth Date</th>
+            <th>Mobile Number</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody *ngIf="students.length>0">
+        <tr *ngFor="let student of students">
+            <td>{{student.name}}</td>
+            <td>{{student.department}}</td>
+            <td>{{student.rollNumber}}</td>
+            <td>{{student.birthDate}}</td>
+            <td>{{student.mobileNumber}}</td>
+            <td>
+                <button (click)="deleteStudent(student.id)">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
