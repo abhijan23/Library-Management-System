@@ -1,4 +1,4 @@
-"# Library-Management-System" 
+# Library Management System
 ## Prerequisite:
   👉Java 11 (https://adoptopenjdk.net/releases.html)
   👉Verify your java version(java --version)
