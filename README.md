@@ -26,4 +26,4 @@
   ```
     🫳 run the server localhost 4200
     
-# Important: You have to run both end to get a functional system
+### Important: You have to run both end to get a functional system
