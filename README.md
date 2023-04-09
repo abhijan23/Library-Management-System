@@ -33,5 +33,8 @@
 
 ## Here are some screenshots:
 ![Screenshot (64)](https://user-images.githubusercontent.com/127073479/230755145-c0a29090-9b0e-4b82-b1d1-15bdf60b7e4f.png)
+Home Page
 ![Screenshot (62)](https://user-images.githubusercontent.com/127073479/230755148-14e5c224-66aa-4b44-bec7-d59c0fcad01f.png)
+Author Page
 ![Screenshot (63)](https://user-images.githubusercontent.com/127073479/230755154-968b897c-2481-41c5-bf29-a9d9423d9875.png)
+Add Author Form
