@@ -27,3 +27,6 @@
     🫳 run the server localhost 4200
     
 ### Important: You have to run both end to get a functional system
+
+## Entities & Attributes:
+![LibMgmt](https://user-images.githubusercontent.com/127073479/230754835-f0964041-499b-4e2e-a56a-7ecf1fcdbe4b.png)
