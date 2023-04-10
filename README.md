@@ -20,7 +20,7 @@
   👉 For ui:
   ```
     $ cd ui
-    $ npm inatall -g @angular/cli
+    $ npm install -g @angular/cli
     $ npm install
     $ npm start
   ```
